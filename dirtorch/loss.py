@@ -8,7 +8,6 @@ class APLoss (nn.Module):
     """ Differentiable AP loss, through quantization. From the paper:
 
         Learning with Average Precision: Training Image Retrieval with a Listwise Loss
-        Jerome Revaud, Jon Almazan, Rafael Sampaio de Rezende, Cesar de Souza
         https://arxiv.org/abs/1906.07589
 
         Input: (N, M)   values in [min, max]
@@ -176,8 +175,6 @@ class TripletLogExpLoss(nn.Module):
     >>> output = triplet_loss(input1, input2, input3)
     >>> output.backward()
 
-    .. _Learning shallow convolutional feature descriptors with triplet losses:
-        http://www.iis.ee.ic.ac.uk/%7Evbalnt/shallow_descr/TFeat_paper.pdf
     """
 
     def __init__(self, p=2, eps=1e-6, swap=False):
