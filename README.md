@@ -40,9 +40,6 @@ And you should see the following output:
 
 ## Feature extraction with kapture datasets
 
-Kapture is a pivot file format, based on text and binary files, used to describe SFM (Structure From Motion) and more generally sensor-acquired data.
-
-It is available at https://github.com/naver/kapture.
 It contains conversion tools for popular formats and several popular datasets are directly available in kapture.
 
 It can be installed with:
